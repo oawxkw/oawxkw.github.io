@@ -5,18 +5,52 @@
     <meta charset="UTF-8">
     <title>Welcome to oawxkw's website! - Powered by GitHub</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <style type="text/css">
+        .logo {
+            background-repeat: no-repeat;
+            background-image: url("logo.svg");
+            background-size: 100% 100%;
+        }
+
+        body>.ui.container {
+            margin-top: 3em;
+        }
+
+        .ui.container>h1 {
+            font-size: 3em;
+            text-align: center;
+            font-weight: normal;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Welcome to oawxkw's website!</h1>
-    <div class="favicon" style="width:100px;height:100px;"></div>
-    <style>
-        .favicon {
-            background-repeat: no-repeat;
-            background-image: url("favicon.svg");
-            background-size: 100% 100%;
-        }
-    </style>
+    <div class="ui container">
+        <h1>Welcome to oawxkw's website!</h1>
+        <h1></h1>
+        <div style="text-align:center;">
+            <div class="ui labeled button" tabindex="0">
+                <div class="ui red button">
+                    <i class="heart icon"></i> Like
+                </div>
+                <a class="ui basic red left pointing label">
+                    520
+                </a>
+            </div>
+            <div class="ui labeled button" tabindex="0">
+                <div class="ui basic blue button">
+                    <i class="fork icon"></i> Forks
+                </div>
+                <a class="ui basic left pointing blue label">
+                    1,314
+                </a>
+            </div>
+            <button class="ui icon button" onclick="location.href='https://oawxkw.github.io/'">
+                <i class="github icon"></i>
+                GitHub
+            </button>
+        </div>
+    </div>
     <link rel="stylesheet" type="text/css" href="dist/semantic.min.css">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"
         integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
